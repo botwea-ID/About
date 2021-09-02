@@ -5,4 +5,4 @@
 </p>
 
 ### Demo
->Demo [Klik](https://frangky.vercel.app)
+>Demo [Click here](https://frangky.vercel.app)
