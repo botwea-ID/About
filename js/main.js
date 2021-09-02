@@ -1,3 +1,4 @@
+// Code By Franky404
 (function ($) {
 	"use strict";
 	var nav = $('nav');
