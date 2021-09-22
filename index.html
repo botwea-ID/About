@@ -28,7 +28,7 @@ window['CboxReady'] = function (Cbox) {
 }
 </script>
 <script src="https://static.cbox.ws/embed/2.js" async></script>
-  <audio id="myAudio">
+  <audio id="myFAudio">
   <source src="audio/sad.mp3" type="audio/ogg">
   <source src="audio/sad.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
@@ -71,24 +71,20 @@ window['CboxReady'] = function (Cbox) {
     </div>
   </div>
   <div class="row">
-              <div class="col-sm-4 grid-margin">
-                <div class="card">
-                  <div class="card-body">
-                    <P>Playing Song...</p>
-                    <button type="submit" class="btn btn-primary mr-2" onclick="playAudio()">Play</button><button type="submit" class="btn btn-primary mr-2" onclick="pauseAudio()">Stop</button>
-                    <script>
-                        var x = document.getElementById("myAudio"); 
-
-                      function playAudio() { 
-                        x.play(); 
-                      } 
-
-                      function pauseAudio() { 
-                        x.pause(); 
-                      }
-                      </script>
-                  </div>
-                </div>
+    <div class="col-sm-4 grid-margin">
+      <P>Playing Song...</p>
+       <button type="submit" class="btn btn-primary mr-2" onclick="playAudio()">Play</button><button type="submit" class="btn btn-primary mr-2" onclick="pauseAudio()">Stop</button>
+         <script>
+           var x = document.getElementById("myFAudio"); 
+           function playAudio() { 
+           x.play(); 
+           } 
+           function pauseAudio() { 
+           x.pause(); 
+            }
+           </script>
+          </div>
+      </div>
   <!--/ Intro Skew End /-->
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
