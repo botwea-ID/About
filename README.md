@@ -5,6 +5,6 @@
 </p>
 
 ### Demo
->Demo [Click here](https://frangky.vercel.app)
+>Demo [Click here](https://frangky.me)
 
->Ip [Click Here](https://frangky.vercel.app/ip.js)
+>Ip [Click Here](https://frangky.me/ip.js)
